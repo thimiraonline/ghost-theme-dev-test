@@ -11,28 +11,6 @@
 
     {{ghost_head}}
     {{!-- Outputs important meta data and settings, should always be in <head> --}}
-
-    <script>
-        // gulpfile.js
-
-// import tailwind at the top of the file
-const tailwind = require('tailwindcss')
-
-// ...
-
-// add tailwind to the css processors list, around line 43:
-function css(done) {
-    var processors = [
-        easyimport,
-        colorFunction(),
-        tailwind(), // add this
-        autoprefixer(),
-        cssnano()
-    ];
-
-    // ...
-}
-    </script>
 </head>
 <body class="{{body_class}}">
 <div class="gh-viewport">

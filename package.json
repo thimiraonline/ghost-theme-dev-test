@@ -1,0 +1,23 @@
+{
+  "name": "sexi-theme",
+  "version": "1.0.0",
+  "description": "this is the first theme made by a noob developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "free",
+    "ghost-theme",
+    "blog"
+  ],
+  "author": "abhi",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/typography": "^0.4.0",
+    "gulp-postcss": "9",
+    "postcss": "^8.2.10",
+    "tailwindcss": "^2.1.1"
+  }
+}
